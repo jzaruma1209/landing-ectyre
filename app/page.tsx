@@ -63,9 +63,9 @@ export default function Home() {
   return (
     <div className="flex min-h-screen flex-col bg-white">
       {/* Contenido centrado */}
-      <div className="flex flex-1 flex-col items-center justify-center px-4 pt-4 sm:pt-0">
+      <div className="flex flex-1 flex-col items-center justify-center px-4">
         {/* Video con overlay play solo en móvil */}
-        <div className="relative w-full max-w-2xl -mt-50 sm:mt-0">
+        <div className="relative w-full max-w-2xl">
           {/* Video real (siempre visible en desktop, o después de tocar play en móvil) */}
           <video
             ref={videoRef}
