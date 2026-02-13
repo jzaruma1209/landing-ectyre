@@ -24,7 +24,21 @@ export const metadata: Metadata = {
   description: "ectyre",
   icons: {
     icon: "/logo1.svg",
+    apple: "/logo1-bg.svg",
   },
+  openGraph: {
+    title: "ectyre",
+    description: "ectyre",
+    siteName: "ectyre",
+    url: "https://ectyre.com",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ectyre",
+    description: "ectyre",
+  },
+  metadataBase: new URL("https://ectyre.com"),
 };
 
 export default function RootLayout({
